@@ -132,7 +132,7 @@ def shuffle_puzzle(state, moves=30):
 
 # Main app
 def main():
-    st.title("🧩 8-Puzzle Solver with Step-by-Step Replay")
+    st.title("🧩 8-Puzzle Solver with Step-by-Step")
 
     algo = st.selectbox("Choose algorithm:", ["A*", "BFS", "DFS"])
     uploaded_file = st.file_uploader("Upload a square image (jpg, png)", type=["jpg", "jpeg", "png"])
