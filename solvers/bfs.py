@@ -1,9 +1,9 @@
 from collections import deque
-from utils.puzzle_utils import find_blank, swap, get_neighbors
+from utils.puzzle_utils_1 import find_blank, swap, get_neighbors
 
 def bfs(initial_state, goal_state):
     queue = deque([(initial_state, 0)])
-    visited = set([initial_state])
+    visited = {initial_state}
     parent_map = {initial_state: None}
     nodes_explored = 0
 
