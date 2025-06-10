@@ -1,5 +1,5 @@
 import heapq
-from utils.puzzle_utils import find_blank, swap, get_neighbors
+from utils.puzzle_utils_1 import find_blank, swap, get_neighbors
 
 def manhattan_distance(state, goal_state):
     distance = 0
