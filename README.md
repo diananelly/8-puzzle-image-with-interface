@@ -24,5 +24,6 @@ users to navigate steps manually and understand tile transitions.
 solving. 
 
 How to Run
+
 1- Install dependencies: pip install streamlit  
 2- Run the app: streamlit run app-1.py
