@@ -1,4 +1,4 @@
-from utils.puzzle_utils import find_blank, swap, get_neighbors
+from utils.puzzle_utils_1 import find_blank, swap, get_neighbors
 
 def dfs(initial_state, goal_state):
     stack = [(initial_state, 0)]
